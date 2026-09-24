@@ -1,0 +1,6 @@
+interface:
+  display_name: "Режим экономии"
+  short_description: "Минимальный контекст и обоснованная эскалация"
+  default_prompt: "Используй $token-efficient-coding: включи режим экономии для текущей задачи, выбери минимально достаточную модель и заверши работу после детерминированной проверки."
+policy:
+  allow_implicit_invocation: true
